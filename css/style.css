@@ -1,0 +1,64 @@
+.field{
+    border: 2px solid green;
+    height: 500px;
+}
+
+
+.bat{
+    height: 400px;
+    transition: 0.1s;
+}
+
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+} 
+
+.ball{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    left: 540px;
+    transition: 1s ease-out 0.1s;
+}
+
+.field:hover .ball{
+    transform: translate(700px, -500px);
+}
+
+
+
+
+
+/* 
+.field{
+    border: 2px solid salmon;
+    height: 500px;
+   
+}
+
+ .bat{
+    height: 400px;
+   transition: transform 0.1s;
+} 
+
+.ball {
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: red;
+    position: relative;
+    left: 543px;
+    transition: transform 1s ease-out 0.2s;
+}
+
+.field:hover .ball{
+    transform: translate(700px, -500px);
+}
+
+.field:hover .bat{
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}  */
